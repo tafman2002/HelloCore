@@ -13,6 +13,7 @@ public class HomeController : Controller
         _logger = logger;
     }
 
+    // Similar to Next JS structure, here these public methods correspond to the 
     public IActionResult Index()
     {
         return View();

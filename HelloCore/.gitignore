@@ -1,0 +1,11 @@
+.idea/
+# NuGet Packages
+*.nupkg
+*.snupkg
+!**/packages.config
+!**/PackageReference
+!**/paket.dependencies
+!**/*.props
+!**/*.targets
+
+*.sln.iml
